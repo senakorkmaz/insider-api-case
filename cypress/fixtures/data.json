@@ -1,0 +1,80 @@
+{
+    "BASE_URL":"https://petstore.swagger.io/v2",
+    "FILE_PATH":"cypress/image/",
+    "IMGE_PATH":"cat.jpg",
+    "HEADERS":{
+        "accept": "application/json",
+        "Content-Type": "application/json"
+    },
+    "VALID_PET":{
+        "id": 25,
+        "category": {
+        "id": 25,
+        "name": "cat"
+        },
+        "name": "pamuk",
+        "photoUrls": [
+            "cat.jpg"
+        ],
+        "tags": [
+        {
+            "id": 25,
+            "name": "string"
+        }
+        ],
+        "status": "available"
+    },
+    "UPDATED_PET":{
+        "id": 25,
+        "category": {
+        "id": 25,
+        "name": "cat"
+        },
+        "name": "kara",
+        "photoUrls": [
+            "cat.jpg"
+        ],
+        "tags": [
+        {
+            "id": 25,
+            "name": "string"
+        }
+        ],
+        "status": "available"
+    },
+    "UPDATED_PET2":{
+        "id": 25,
+        "category": {
+        "id": 25,
+        "name": "cat"
+        },
+        "name": "boncuk",
+        "photoUrls": [
+            "cat.jpg"
+        ],
+        "tags": [
+        {
+            "id": 25,
+            "name": "string"
+        }
+        ],
+        "status": "pending"
+    },
+    "UNVALID_PET":{
+        "id": "pamuk",
+        "category": {
+        "id": 25,
+        "name": "cat"
+        },
+        "photoUrls": [
+            "cat.jpg"
+        ],
+        "tags": [
+        {
+            "id": 25,
+            "name": "string"
+        }
+        ],
+        "status": "available"
+    }
+}
